@@ -187,7 +187,7 @@ namespace CronExpressionDescriptor.Test.En
 
         protected override string GetExpectedSecondIntervals()
         {
-            return "Seconds |M0| through |M1| past the minute";
+            return "Seconds |S0| through |S1| past the minute";
         }
 
         protected override string GetExpectedSecondMinutesHoursIntervals()
